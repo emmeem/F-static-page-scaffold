@@ -44,3 +44,8 @@ h1 {
   padding: 4px;
   border-radius: 2px;
 }
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}

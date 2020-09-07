@@ -8,6 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   background-color: lightgray;
+  
 }
 
 * {
@@ -25,27 +26,75 @@ header {
 	color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 8px;
-}
-
-h1 {
-  padding: 10px 0px 5px 0px;
 }
 
 .logoAndRe {
   display: flex;
-  align-items: center;
+  margin: 0 0 0 10%;
 }
 
 .register-button {
   background-color: limegreen;
-  margin-left: 8px;
-  padding: 4px;
   border-radius: 2px;
+  height: 40px;
+  color: white;
+  margin: 35px 0 0 8px;
+  border-style: none;
+}
+
+header a {
+  height: 30px;
+  padding: 0;
+  margin-top: 40px; 
+}
+
+main {
+ margin: 0px;
+ padding: 1% 15% 20% 15%;
+ 
+}
+
+main h2 {
+  margin: 0;
+}
+
+.belowMainH2 {
+  display: flex;
+  margin: 0;
+}
+
+h1 {
+  padding: 10px 0px 5px 0px;
+  margin-left: 50%;
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.brand {
+  background-color: white;
+  text-align: center;
+  margin-right:10px;
+}
+
+.person {
+  background-color: white;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.leftFigureBtn {
+  margin-top: 50px;
+  width: 50px;
+  height: 35px;
+}
+
+.rightFigureBtn {
+  margin-top: 50px;
+  width: 50px;
+  height: 35px;
 }

@@ -29,12 +29,12 @@ header {
   padding: 8px;
 }
 
-.logoAndRe {
+.header-left {
   display: flex;
   margin: 0 0 0 10%;
 }
 
-.registerButton {
+.register-btn {
   background-color: limegreen;
   height: 20px;
   width: 40px;
@@ -42,11 +42,22 @@ header {
   margin: 40px 0 0 8px;
 }
 
-header a {
+.header-right {
   height: 30px;
   padding: 0;
   margin-top: 40px; 
   margin-right: 23%;
+  display: flex;
+  align-content: center;
+}
+
+.trangle {
+  width: 0;
+  height: 0;
+  border: 6px solid #000;
+  border-color: white transparent transparent transparent;
+  margin-left: 3px;
+  margin-top: 10px;
 }
 
 main {
@@ -59,7 +70,7 @@ main h2 {
   margin: 0;
 }
 
-.belowMainH2 {
+.below-main-h2 {
   display: flex;
   margin: 0;
 }
@@ -75,6 +86,10 @@ h1 {
   padding: 0;
 }
 
+.figure-title {
+  font-weight: bold;
+}
+
 .brand {
   background-color: white;
   text-align: center;
@@ -87,13 +102,13 @@ h1 {
   margin-left: 10px;
 }
 
-.leftFigureBtn {
+.left-figure-btn {
   margin-top: 50px;
   width: 50px;
   height: 35px;
 }
 
-.rightFigureBtn {
+.right-figure-btn {
   margin-top: 50px;
   width: 50px;
   height: 35px;
